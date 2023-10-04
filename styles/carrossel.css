@@ -94,3 +94,32 @@
         margin: 2em auto;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+        margin: 0 20vw 1em 20vw;
+        gap: 2em;
+        align-items: center;
+    }
+
+    .swiper {
+        width: 55%;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__texto {
+        font-size: 16px;
+    }
+
+    .descricao {
+        margin-right: 1.5em;
+    }
+
+    .card {
+        width: 60%;
+    }
+}
